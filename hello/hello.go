@@ -20,13 +20,13 @@ const frenchHelloPrefix = "Bonjour, "
 const englishHelloPrefix = "Hello, "
 
 func greetingPrefix(lang string) (prefix string) {
-  switch lang {
+	switch lang {
 	case spanish:
 		prefix = spanishHelloPrefix
 	case french:
 		prefix = frenchHelloPrefix
-  default:
-    prefix = englishHelloPrefix
+	default:
+		prefix = englishHelloPrefix
 	}
-  return 
+	return
 }
